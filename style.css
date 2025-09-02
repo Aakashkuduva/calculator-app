@@ -1,0 +1,49 @@
+.container{
+    border: 2px black solid;
+    position: relative;
+    width: 30vw;
+    height: 70vh;
+    margin: auto;
+    top: 100px;
+    display: grid;
+    padding: 20px;
+    gap: 5px;
+    background-color: black;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.numbers button{
+    width: 25%;
+    font-size: 25px;
+    border: none;
+    border-radius: 1000px;
+    color: orange;
+
+}
+.numbers button:hover{
+    background-color: gray;
+}
+input{
+    width: 100%;
+    font-size: 25px;
+    outline: none;
+    text-align: right;
+    border: solid gray 2px;
+     border-radius: 5px;
+    padding-right: 10px;
+
+    
+}
+.evaluvate{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+.evaluvate:hover{
+
+    background-color: lightgoldenrodyellow;
+}
