@@ -10,6 +10,18 @@
     gap: 5px;
     background-color: black;
 }
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 60vw;
+        
+    }
+
+    .numbers button{
+        font-size:15px;
+
+    }
+}
 .numbers{
     display: flex;
     justify-content: space-between;
